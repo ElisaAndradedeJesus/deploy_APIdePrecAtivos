@@ -1,0 +1,1 @@
+[{"id":1,"nome":"Carlos Miguel Silva","email":"cms@email.com","perfil_id":1,"perfil_descricao":"usuario","password":"123","endereco":{"logradouro":"Rua","descricao":"visconde de Taunay","numero":"23","cep":"29.106-080","cidade":"VV","estado":"ES"}},{"id":2,"nome":"miu","email":"tudo@gmail.com","password":"123","perfil_id":1,"perfil_descricao":"usuario","endereco":{}}]

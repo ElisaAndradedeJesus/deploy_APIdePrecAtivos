@@ -1,0 +1,88 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "nome": "Carlos Miguel Silva",
+      "email": "cms@email.com",
+      "perfil": {
+        "id": 1,
+        "descricao": "usuario"
+      },
+      "password": "123",
+      "endereco": {
+        "logradouro": "Rua",
+        "descricao": "visconde de Taunay",
+        "numero": "23",
+        "cep": "29.106-080",
+        "cidade": "VV",
+        "estado": "ES"
+      }
+    },
+    {
+      "id": 2,
+      "nome": "Paulo Ricado Viana",
+      "email": "prv@email.com",
+      "perfil": {
+        "id": 2,
+        "descricao": "administrador"
+      },
+      "password": "123",
+      "endereco": {
+        "logradouro": "Avenida",
+        "descricao": "Gilberto Silva",
+        "numero": "23",
+        "cep": "33.106-080",
+        "cidade": "Alto Alegre",
+        "estado": "SP"
+      }
+    },
+    {
+      "id": 3,
+      "nome": "André Barbosa",
+      "email": "ab@email.com",
+      "perfil": {
+        "id": 1,
+        "descricao": "usuario"
+      },
+      "password": "123",
+      "endereco": {
+        "logradouro": "Beco",
+        "descricao": "Diagonal",
+        "numero": "23",
+        "cep": "73.106-110",
+        "cidade": "Itabuna",
+        "estado": "BA"
+      }
+    }
+  ],
+  "precatorio": [
+    {
+      "fonte_devedora": {
+        "titulo": "Estado do Espirito Santo",
+        "esfera": "estadual",
+        "origem": "ES"
+      },
+      "valor": 15.0,
+      "prazo": 32,
+      "link": "www.google.com",
+      "titular": {
+        "id": 1,
+        "nome": "Carlos Miguel Silva",
+        "email": "cms@email.com",
+        "perfil": {
+          "id": 1,
+          "descricao": "usuario"
+        },
+        "password": "123",
+        "endereco": {
+          "logradouro": "Rua",
+          "descricao": "visconde de Taunay",
+          "numero": "23",
+          "cep": "29.106-080",
+          "cidade": "VV",
+          "estado": "ES"
+        }
+      }
+    }
+  ]
+}
