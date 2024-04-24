@@ -41,6 +41,12 @@ app.get('/precatorios',(req,res) => {
   res.json(data)
 })
 
+//pegar todos os usuários
+app.get('/user',(req ,res) =>{
+  const data = require('./DB/user.json')
+  res.json(data)
+})
+
 //para adicionar novos precatórios
 app.post('/addPrecatorio',(req,res) => {
   let body = req.body
